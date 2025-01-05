@@ -35,6 +35,6 @@ jobs:
           git config --global user.name "Duaa Mansur"
           echo "https://huggingface-cli:$HF_TOKEN@huggingface.co" > ~/.git-credentials
           git config --global credential.helper store
-          git remote add hf https://huggingface.co/spaces/duaa_mansur/task1 || echo "Remote already exists"
+          git remote add hf https://huggingface.co/spaces/duaamansur/task1 || echo "Remote already exists"
           git push hf main --force
 
